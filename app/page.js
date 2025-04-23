@@ -6,7 +6,9 @@ import NavigationButton from "./NavigationButton";
 import Image from 'next/image'; // Added import for Next.js Image component
 
 // API base URL - make it easy to change for development/production
-const API_BASE_URL = 'http://127.0.0.1:5000';
+
+// const API_BASE_URL = 'http://127.0.0.1:5000';
+const API_BASE_URL = 'https://deep-voxel-backend.onrender.com';
 
 function App() {
   const [niftiFile, setNiftiFile] = useState(null);

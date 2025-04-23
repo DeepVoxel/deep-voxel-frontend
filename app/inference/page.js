@@ -24,7 +24,8 @@ export default function BrainTumorSegmentation() {
 
   useEffect(() => {
     // Fetch dataset info when component mounts
-    fetch('http://localhost:5001/dataset_info')
+    // fetch('http://localhost:5001/dataset_info')
+    fetch('https://deep-voxel-backend.onrender.com/dataset_info')
       .then(response => response.json())
       .then(data => {
         setDatasetInfo(data);
@@ -53,7 +54,8 @@ export default function BrainTumorSegmentation() {
     setResult(null);
 
     try {
-      const response = await fetch('http://localhost:5001/process_sample', {
+      // const response = await fetch('http://localhost:5001/process_sample', {
+        const response = await fetch('https://deep-voxel-backend.onrender.com/process_sample', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
