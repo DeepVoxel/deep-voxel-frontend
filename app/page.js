@@ -517,7 +517,7 @@ function App() {
         {/* Footer */}
         <footer className="mt-50 text-center text-gray-50 text-sm opacity-70">
           <p>
-            &copy; {new Date().getFullYear()} ✦ Deep Voxel • Advanced Neuroimaging • North South University
+            &copy; {new Date().getFullYear()} ✦ Deep Voxel • Advanced Neuroimaging
           </p>
         </footer>
       </div>
