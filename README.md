@@ -70,3 +70,5 @@ This makes DeepVoxel **lightweight**, **efficient**, and **practical for deploym
 
 ---
 
+© Imroz Eshan • 2025 — All rights reserved  
+🔗 [Portfolio](https://imrozeshan.vercel.app/)
